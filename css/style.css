@@ -6,10 +6,6 @@
   max-width: 1500px;
   margin: auto;
 }
-/*@media screen and (min-width: 620px) {
-.wrapper {
-  margin: 0 10% 0 10%;
-}}*/
 
 .section1 { /*Container til forsidens øverste billede*/
   text-align: center;
