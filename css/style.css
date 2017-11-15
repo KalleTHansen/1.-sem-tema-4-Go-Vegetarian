@@ -2,6 +2,15 @@
   box-sizing: border-box;
 }
 
+.wrapper {
+  max-width: 1500px;
+  margin: auto;
+}
+/*@media screen and (min-width: 620px) {
+.wrapper {
+  margin: 0 10% 0 10%;
+}}*/
+
 .section1 { /*Container til forsidens øverste billede*/
   text-align: center;
   position: relative;
@@ -30,7 +39,7 @@
   left: 50%; /*Placér forankringspunkt i midten*/
   transform: translate(-50%, -50%); /*Sætter forankringspunktet til midten af linjen*/
   background-color: rgba(217, 183, 209, 0.75);
-
+  /*background-color: rgba(217, 183, 209, 0.75);*/
 }
 
 .section1 button { /*Knap på top banner*/
