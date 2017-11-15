@@ -48,3 +48,30 @@
   background-color: #5e1024;
   color: white;
 }
+
+.section2 img {
+  max-width: 100%;
+}
+
+.fact1, .fact2 p, .fact3, .fact4 {
+  background-color: grey;
+  color: blue;
+}
+
+@media (min-width: 801px) { /*Fire kolonner >800px*/
+  .fact1, .fact2, .fact3, .fact4 {
+    width: 25vw;
+  }
+}
+
+@media (max-width: 800px) {
+  .fact1, .fact2, .fact3, .fact4 {
+    width: 50vw;
+  }
+}
+
+@media (max-width: 400px) {
+  .fact1, .fact2, .fact3, .fact4 {
+    width: 100vw;
+  }
+}
