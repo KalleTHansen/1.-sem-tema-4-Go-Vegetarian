@@ -1,0 +1,13 @@
+.first {
+    width: 100%;
+    height: 1000px;
+    background: #ccc;
+}
+
+.second {
+    width: 100%;
+    height: 1000px;
+    background: #999;
+}
+
+body{ scroll-behavior: smooth; }

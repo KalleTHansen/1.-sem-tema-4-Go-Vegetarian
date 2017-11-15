@@ -1,0 +1,40 @@
+*{
+  box-sizing: border-box;
+}
+
+.section1 { /*Container til forsidens øverste billede*/
+  text-align: center;
+  position: relative;
+  clear: both; /*Rydder op efter float på tidligere elementer*/
+}
+
+.section1 img {
+  max-width: 100%;
+}
+
+.section1 h1{ /*Teksten til forsidens øverste billede*/
+  position: absolute; /*Så den kan placeres på billedet*/
+  font-family: sans-serif;
+  color: white;
+  font-size: 6vw;
+  text-shadow: 0px 2px 5px #000;
+  top: 15%;
+  left: 50%; /*Placér forankringspunkt i midten*/
+  transform: translate(-50%, -50%); /*Sætter forankringspunktet til midten af linjen*/
+}
+
+.section1 button { /*Knap på top banner*/
+  position: absolute;
+  left: 50%;
+  top: 70%;
+  transform: translate(-50%, -50%); /*Sætter forankringspunktet til midten af linjen*/
+  font-family: sans-serif;
+  font-size: 3vw;
+}
+
+.section1 img #logo {
+  position: absolute;
+  left: 10%;
+  top: 10%;
+  width: 10vw;
+}
