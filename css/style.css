@@ -2,8 +2,11 @@
   box-sizing: border-box;
 }
 
+p {
+  font-family: sans-serif;
+}
 .wrapper {
-  max-width: 1500px;
+  max-width: 1200px;
   margin: auto;
 }
 
@@ -53,19 +56,16 @@
   max-width: 100%;
 }
 
-.section2 h2 {
+.section2 h2, .section3 h2 {
   text-align: center;
 }
 
 .section2 h3 {
   margin: 0.5em auto;
-  text-align: center;
 }
 
 .fact1, .fact2, .fact3, .fact4 {
   background-color: #fff;
-  border: 0.5%;
-  border-color: black;
   margin: 0.5%;
   padding: 0.5%;
   /*box-shadow: 0px 0px 1vw;*/
@@ -93,4 +93,58 @@
   .fact1, .fact2, .fact3, .fact4 {
     width: 96%;
   }
+}
+
+
+.button {
+      margin-top: 15px;
+      background-color: #000000;
+      border-radius: 15px;
+      color: white;
+      padding: 15px 30px;
+      text-decoration: none;
+      font-size: 16px;
+      cursor: pointer;
+      display: flex;
+      margin:auto;
+      clear: both;
+}
+
+.phone {
+  float: right;
+
+}
+
+.features {
+  margin-left: 2em;
+  font-size: 1.3em;
+}
+
+.no-bullet {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+/*.features li {
+    background: url('../img/leaf.png') no-repeat left top;
+    height: 0.4em;
+}*/
+
+.features li {
+  position: relative;
+  padding-left: 2em;
+}
+
+.features li::before {
+  content: '';
+  position: absolute;
+  width: 2em;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-image: url('../img/leaf.png');
+  background-size: 1em 1em;
+  background-repeat: no-repeat;
+  background-position: center;
 }
