@@ -2,14 +2,6 @@
   box-sizing: border-box;
 }
 
-@font-face {
-    font-family: 'hiragino_sans_gbw3';
-    src: url('../fonts/hiragino-sans-gb-w3-webfont.woff2') format('woff2'),
-         url('../fonts/hiragino-sans-gb-w3-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
-
 p, button, ul {
   font-family: 'cabin', sans-serif;
 }
@@ -96,6 +88,12 @@ h2, h3 {
   font-size: 3vw;
   background-color: #9a206a;
   color: white;
+}
+
+@media (max-width: 400px) {
+  .arrow {
+    display: none;
+  }
 }
 
 /*SECTION 2*/
