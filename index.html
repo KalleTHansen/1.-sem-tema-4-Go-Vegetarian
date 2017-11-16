@@ -13,7 +13,7 @@
       <img src="img/topbanner.jpg" alt="Green grass">
       <img src="img/logo.png" id="logo" alt="Logo">
       <h1>Want to be vegetarian?</h1>
-      <button type="button" name="button">Here's why you should</button>
+      <button type="button" name="button" onclick="scrollDown()">Here's why you should</button>
     </section>
 
     <section class= 'section2'>
@@ -51,20 +51,30 @@
       <h2>We'll help you</h2>
 
       <div class="features">
-      <h3>Our app includes:</h3>
-      <ul class="no-bullet">
-        <li>Tips</li>
-        <li>Recipes</li>
-        <li>Guidance</li>
-        <li>Achievements</li>
-      </ul>
-      </div>
+        <img src="img/iphone.png" class="phone" alt="Our app">
 
-      <img src="iphone.png" class="phone">
+        <div class="points">
+          <h3>Our app includes:</h3>
+          <ul class="no-bullet">
+            <li>Tips</li>
+            <li>Recipes</li>
+            <li>Guidance</li>
+            <li>Achievements</li>
+          </ul>
+          <button class="button">GET THE APP</button>
+        </div>
 
-      <button class="button">GET THE APP</button>
+
+        </div>
     </section>
 
     </div>
+
+    <script>
+      function scrollDown() {
+      var elmnt = document.getElementByClassName("section2");
+      elmnt.scrollIntoView();
+    }
+    </script>
   </body>
 </html>
