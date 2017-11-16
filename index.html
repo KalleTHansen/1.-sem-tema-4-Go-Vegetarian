@@ -4,17 +4,19 @@
     <meta charset="utf-8">
     <link rel="stylesheet" href="css/style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" >
-    <link href="https://fonts.googleapis.com/css?family=Cabin|Lora|Noto+Sans" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Cabin|Noto+Sans|Nunito" rel="stylesheet">
     <title>Go vegetarian</title>
   </head>
   <body>
     <div class="wrapper">
 
     <section class= 'section1'>
-      <img src="img/background.jpg" alt="Green grass">
+      <img src="img/background.jpg" class="background" alt="Green grass">
       <img src="img/logo.png" class="logo" alt="Logo">
-      <h1>Want to be vegetarian?</h1>
-      <button type="button" name="button" onclick="scrollDown()">Here's why you should</button>
+      <h1>Green your mind</h1>
+      <h2>Explore the vegetarian lifestyle</h2>
+    <!--  <button type="button" name="button" onclick="scrollDown()">Here's why you should</button>-->
+    <img src="img/arrow.png" alt="Arrow" class="arrow">
     </section>
 
     <section class= 'section2'>
@@ -49,7 +51,7 @@
 
     <section class="section3">
 
-      <h2>We'll help you convert</h2>
+      <h2>We'll help you</h2>
 
       <div class="features">
         <img src="img/iphone.png" class="phone" alt="Our app">
@@ -70,12 +72,5 @@
     </section>
 
     </div>
-
-    <script>
-      function scrollDown() {
-      var elmnt = document.getElementByClassName("section2");
-      elmnt.scrollIntoView();
-    }
-    </script>
   </body>
 </html>
